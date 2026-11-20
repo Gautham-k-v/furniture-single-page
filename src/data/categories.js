@@ -1,0 +1,58 @@
+import { asset } from "../utils/asset";
+
+export const categories = [
+  {
+    id: "living",
+    name: "Living Room",
+    description: "Sofas, chairs, and tables made for gathering.",
+    image: asset("images/cat-living.jpg"),
+    alt: "Yellow armchair in a living room with a side table and framed art",
+    filter: "Living Room",
+    layout: "feature",
+  },
+  {
+    id: "bedroom",
+    name: "Bedroom",
+    description: "Beds and quiet pieces for rest.",
+    image: asset("images/cat-bedroom.jpg"),
+    alt: "Upholstered bed in a dark bedroom with bedside lamps",
+    filter: "Bedroom",
+    layout: "regular",
+  },
+  {
+    id: "dining",
+    name: "Dining",
+    description: "Tables and seating for everyday meals.",
+    image: asset("images/cat-dining.jpg"),
+    alt: "Dining table with green velvet chairs and a round mirror",
+    filter: "Dining",
+    layout: "regular",
+  },
+  {
+    id: "workspace",
+    name: "Workspace",
+    description: "Desks and storage for focused work.",
+    image: asset("images/cat-workspace.jpg"),
+    alt: "Bright workspace with a white desk and office chair",
+    filter: "Workspace",
+    layout: "regular",
+  },
+  {
+    id: "storage",
+    name: "Storage",
+    description: "Wardrobes and cabinets with a calm order.",
+    image: asset("images/cat-storage.jpg"),
+    alt: "Oak wall shelves used for storage",
+    filter: "Storage",
+    layout: "regular",
+  },
+  {
+    id: "custom",
+    name: "Custom Furniture",
+    description: "Pieces designed around your home.",
+    image: asset("images/cat-custom.jpg"),
+    alt: "Custom living room with a beige sectional sofa",
+    filter: "custom",
+    layout: "wide",
+  },
+];
